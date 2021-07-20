@@ -1,0 +1,17 @@
+name: db_reader
+version: 0.1.0
+
+authors:
+  - AtomicTempest https://github.com/AtomicTempest
+
+targets:
+  db_reader:
+    main: src/db_reader.cr
+
+dependencies:
+  sqlite3:
+    github: crystal-lang/crystal-sqlite3
+
+crystal: 1.0.0
+
+license: Apache license 2.0
